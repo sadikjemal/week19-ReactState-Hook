@@ -1,0 +1,38 @@
+body {
+  background-color: #d1d5db; /* Light gray background matching your screenshot */
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.click-button {
+  background-color: #2e7d32; /* Green color matching your button */
+  color: white;
+  padding: 16px 36px;
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.2s ease;
+}
+
+.click-button:hover {
+  background-color: #1b5e20;
+}
+
+.count-display {
+  margin-top: 40px;
+  font-family: serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: #111827;
+}

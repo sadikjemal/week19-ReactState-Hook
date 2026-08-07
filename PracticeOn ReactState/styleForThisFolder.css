@@ -1,0 +1,11 @@
+.myCounter{
+    text-align: center;
+    margin-top: 50px;
+}
+.counterDisplayer{
+    margin-top: 20px;
+}
+.evenCounterDisplayer{
+    margin-top: 20px;
+    background-color: greenyellow;
+}
